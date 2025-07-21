@@ -2,9 +2,9 @@
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gradient-to-tr from-orange-200 to-orange-400 text-white py-10 px-8">
+    <footer className="w-full bg-gradient-to-b from-orange-400 via-orange-300 to-orange-200 text-white py-10 px-8">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
-        {/* Left column: Main links */}
+        {/* left column: main links */}
         <div className="flex-1 mb-6 md:mb-0">
           <ul className="space-y-4 text-lg font-bold">
             <li className="hover:underline cursor-pointer">Who we are</li>
@@ -13,7 +13,7 @@ export default function Footer() {
             <li className="hover:underline cursor-pointer">Opportunities</li>
           </ul>
         </div>
-        {/* Center column: Offerings and policies */}
+        {/* center column: offerings and policies */}
         <div className="flex-1 flex flex-col md:flex-row gap-8">
           <ul className="space-y-2 text-sm">
             <li className="font-semibold">Life Insurance</li>
@@ -26,7 +26,7 @@ export default function Footer() {
             <li>Privacy Policy</li>
           </ul>
         </div>
-        {/* Right column: Contact and button */}
+        {/* right column: contact and button */}
         <div className="flex-1 flex flex-col items-start gap-2">
           <div className="text-sm">
             <div>901 McCune Road</div>
@@ -36,16 +36,30 @@ export default function Footer() {
           </div>
           <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded">Book a free consultation</button>
         </div>
-      </div>
-      {/* Social media row */}
-      <div className="max-w-7xl mx-auto mt-8 flex flex-col md:flex-row items-center justify-between">
-        <div className="text-xs text-white/80">Insert Social media icons with links: FB, IG, LinkedIn</div>
-        {/* Placeholder for icons */}
-        <div className="flex gap-4 mt-2 md:mt-0">
-          <div className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">FB</div>
-          <div className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">IG</div>
-          <div className="w-6 h-6 bg-white/30 rounded-full flex items-center justify-center">IN</div>
+        {/* social media column, on desktop */}
+        <div className="hidden md:flex flex-col items-end gap-6 min-w-[60px]">
+          <a href="#" aria-label="Facebook" className="w-12 h-12 flex items-center justify-center">
+            <img src="/facebook.png" alt="Facebook" className="w-12 h-12 object-contain" />
+          </a>
+          <a href="#" aria-label="Instagram" className="w-12 h-12 flex items-center justify-center">
+            <img src="/instagram.png" alt="Instagram" className="w-12 h-12 object-contain" />
+          </a>
+          <a href="#" aria-label="LinkedIn" className="w-12 h-12 flex items-center justify-center">
+            <img src="/linkedin.png" alt="LinkedIn" className="w-12 h-12 object-contain" />
+          </a>
         </div>
+      </div>
+      {/* social media row, on mobile */}
+      <div className="md:hidden flex justify-center gap-8 mt-8">
+        <a href="#" aria-label="Facebook" className="w-10 h-10 flex items-center justify-center">
+          <img src="/facebook.png" alt="Facebook" className="w-10 h-10 object-contain" />
+        </a>
+        <a href="#" aria-label="Instagram" className="w-10 h-10 flex items-center justify-center">
+          <img src="/instagram.png" alt="Instagram" className="w-10 h-10 object-contain" />
+        </a>
+        <a href="#" aria-label="LinkedIn" className="w-10 h-10 flex items-center justify-center">
+          <img src="/linkedin.png" alt="LinkedIn" className="w-10 h-10 object-contain" />
+        </a>
       </div>
     </footer>
   );
