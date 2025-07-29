@@ -1,5 +1,3 @@
-"use client";
-
 export default function Footer() {
   return (
     <footer className="w-full bg-gradient-to-b from-orange-400 via-orange-300 to-orange-200 text-white py-10 px-8">
@@ -23,7 +21,9 @@ export default function Footer() {
           </ul>
           <ul className="space-y-2 text-sm">
             <li className="font-semibold">FAQ</li>
-            <li>Privacy Policy</li>
+            <li>
+              <a href="/privacy-policy" className="hover:underline cursor-pointer">Privacy Policy</a>
+            </li>
           </ul>
         </div>
         {/* right column: contact and button */}

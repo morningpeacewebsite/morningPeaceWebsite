@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-white border-b border-orange-200 shadow-sm flex items-center px-4 md:px-8 py-3" style={{ fontFamily: 'var(--font-geist-sans), Arial, Helvetica, sans-serif' }}>
+    <nav className="w-full bg-[#FCF5EF] border-b border-[#FEA735] shadow-sm flex items-center px-4 md:px-8 py-3" style={{ fontFamily: 'var(--font-geist-sans), Arial, Helvetica, sans-serif' }}>
       {/* logo */}
       <div className="flex items-center mr-4 md:mr-10 flex-shrink-0">
         <Link href="/">
@@ -44,12 +44,12 @@ export default function Navbar() {
         </svg>
       </button>
       {/* desktop nav links */}
-      <ul className="hidden md:flex space-x-10 text-gray-800 font-medium text-lg">
+      <ul className="hidden md:flex space-x-10 text-[#0077FF] font-medium text-lg">
         <li>
-          <Link href="/WhoWeAre" className="hover:text-blue-600 transition-colors duration-150 border-b-2 border-transparent hover:border-blue-400 pb-1">Who We Are</Link>
+          <Link href="/WhoWeAre" className="hover:text-[#FE7235] transition-colors duration-150 border-b-2 border-transparent hover:border-[#FEA735] pb-1">Who We Are</Link>
         </li>
         <li className="relative group">
-          <div className="flex items-center cursor-pointer select-none hover:text-blue-600 transition-colors duration-150 border-b-2 border-transparent group-hover:border-blue-400 pb-1">
+          <div className="flex items-center cursor-pointer select-none hover:text-[#FE7235] transition-colors duration-150 border-b-2 border-transparent group-hover:border-[#FEA735] pb-1">
             <span className="flex items-center">
               <Link href="/WhatWeOffer">What We Offer</Link>
               <button
@@ -78,13 +78,13 @@ export default function Navbar() {
           )}
         </li>
         <li>
-          <Link href="/Resources" className="hover:text-blue-600 transition-colors duration-150 border-b-2 border-transparent hover:border-blue-400 pb-1">Resources</Link>
+          <Link href="/Resources" className="hover:text-[#FE7235] transition-colors duration-150 border-b-2 border-transparent hover:border-[#FEA735] pb-1">Resources</Link>
         </li>
         <li>
-          <Link href="/Opportunities" className="hover:text-blue-600 transition-colors duration-150 border-b-2 border-transparent hover:border-blue-400 pb-1">Opportunities</Link>
+          <Link href="/Opportunities" className="hover:text-[#FE7235] transition-colors duration-150 border-b-2 border-transparent hover:border-[#FEA735] pb-1">Opportunities</Link>
         </li>
         <li>
-          <Link href="/ConnectWithUs" className="hover:text-blue-600 transition-colors duration-150 border-b-2 border-transparent hover:border-blue-400 pb-1">Connect With Us</Link>
+          <Link href="/ConnectWithUs" className="hover:text-[#FE7235] transition-colors duration-150 border-b-2 border-transparent hover:border-[#FEA735] pb-1">Connect With Us</Link>
         </li>
       </ul>
       {/* mobile menu overlay */}
@@ -92,7 +92,7 @@ export default function Navbar() {
         <div className="fixed inset-0 bg-black/40 z-40 md:hidden" onClick={() => setMobileMenuOpen(false)}></div>
       )}
       {/* mobile nav links */}
-      <div className={`fixed top-0 left-0 w-3/4 max-w-xs h-full bg-white shadow-lg z-50 transform transition-transform duration-200 md:hidden ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`} style={{ fontFamily: 'var(--font-geist-sans), Arial, Helvetica, sans-serif' }}>
+      <div className={`fixed top-0 left-0 w-3/4 max-w-xs h-full bg-[#FCF5EF] shadow-lg z-50 transform transition-transform duration-200 md:hidden ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`} style={{ fontFamily: 'var(--font-geist-sans), Arial, Helvetica, sans-serif' }}>
         <div className="flex items-center justify-between px-4 py-3 border-b border-orange-200">
           <Link href="/">
             <Image
@@ -110,7 +110,7 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
-        <ul className="flex flex-col gap-2 px-6 py-6 text-gray-800 font-medium text-lg">
+        <ul className="flex flex-col gap-2 px-6 py-6 text-[#0077FF] font-medium text-lg">
           <li>
             <Link href="/WhoWeAre" onClick={() => setMobileMenuOpen(false)} className="block py-2">Who We Are</Link>
           </li>
