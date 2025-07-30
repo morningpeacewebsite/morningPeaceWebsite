@@ -30,6 +30,41 @@ export default function ConnectWithUs() {
           </div>
         </div>
       </div>
+      
+      {/* Appointment Booking Section */}
+      <div className="w-full max-w-5xl mt-12 bg-white rounded-xl shadow-lg p-8">
+        <div className="flex items-start gap-4 mb-6">
+          <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
+            i
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold text-gray-800 mb-2">Morning Peace</h2>
+            <h3 className="text-2xl font-bold text-gray-900 mb-2">Free 30-60 min Consultation</h3>
+            <div className="flex items-center gap-2 text-gray-600 mb-4">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
+              </svg>
+              <span>60 min appointments</span>
+            </div>
+            <p className="text-gray-700 mb-4">
+              This is a free 30-60 minute consultation with a licensed financial 
+              professional from Morning Peace.
+            </p>
+            <button className="text-[#FEA735] hover:text-[#FE7235] font-medium underline">
+              Show more
+            </button>
+          </div>
+        </div>
+        
+        <div className="border-t border-gray-200 pt-6">
+          <h4 className="text-lg font-semibold text-gray-800 mb-4">Select an appointment time</h4>
+          <p className="text-sm text-gray-600 mb-6">(GMT-04:00) Eastern Time - New York</p>
+          
+          {/* Calendar iframe placeholder */}
+          <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ23g0yG8Jw1BgQ0x3rgG3HkjogBHsoNTemdm97CCsOXC4z_SjTy9mTWsRuuGC6JwF1qRp4oODpa?gv=true" style={{border: '0', width: "100%", height: "600px", frameBorder: "0"}}></iframe>
+
+        </div>
+      </div>
     </div>
   );
 } 

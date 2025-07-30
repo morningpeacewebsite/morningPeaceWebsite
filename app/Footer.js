@@ -34,7 +34,7 @@ export default function Footer() {
             <div>Email</div>
             <div>443-297-7557</div>
           </div>
-          <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded">Book a free consultation</button>
+          <button className="mt-4 bg-[#2faeed] hover:bg-[#0077FF] text-white px-5 py-2 rounded">Book a free consultation</button>
         </div>
         {/* social media column, on desktop */}
         <div className="hidden md:flex flex-col items-end gap-6 min-w-[60px]">
