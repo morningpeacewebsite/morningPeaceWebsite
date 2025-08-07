@@ -119,9 +119,9 @@ export default function IULPerfectGift() {
             </p>
             
             {/* Scenario 1 */}
-            <div className="bg-white/10 rounded-lg p-6 mb-6">
-              <h4 className="text-xl font-bold mb-4">Scenario 1: Male, Age 1</h4>
-              <ul className="text-lg space-y-2">
+            <div className="bg-white rounded-lg p-6 mb-6 shadow-sm">
+              <h4 className="text-xl font-bold mb-4 text-[#FE7235]">Scenario 1: Male, Age 1</h4>
+              <ul className="text-lg space-y-2 text-gray-700">
                 <li>• Initial Premium: $30/month to age 22; then $60/month to age 65</li>
                 <li>• Total Premiums Paid: $38,160</li>
                 <li>• Cash Value at Age 65: $303,615 (Option B)</li>
@@ -132,9 +132,9 @@ export default function IULPerfectGift() {
             </div>
 
             {/* Scenario 2 */}
-            <div className="bg-white/10 rounded-lg p-6 mb-6">
-              <h4 className="text-xl font-bold mb-4">Scenario 2: Female, Age 5</h4>
-              <ul className="text-lg space-y-2">
+            <div className="bg-white rounded-lg p-6 mb-6 shadow-sm">
+              <h4 className="text-xl font-bold mb-4 text-[#FE7235]">Scenario 2: Female, Age 5</h4>
+              <ul className="text-lg space-y-2 text-gray-700">
                 <li>• Initial Premium: $45/month to age 22; then $90/month to age 65</li>
                 <li>• Total Premiums Paid: $55,080</li>
                 <li>• Cash Value at Age 65: $436,135 (Option B)</li>
@@ -145,9 +145,9 @@ export default function IULPerfectGift() {
             </div>
 
             {/* Scenario 3 */}
-            <div className="bg-white/10 rounded-lg p-6">
-              <h4 className="text-xl font-bold mb-4">Scenario 3: Male, Age 10</h4>
-              <ul className="text-lg space-y-2">
+            <div className="bg-white rounded-lg p-6 shadow-sm">
+              <h4 className="text-xl font-bold mb-4 text-[#FE7235]">Scenario 3: Male, Age 10</h4>
+              <ul className="text-lg space-y-2 text-gray-700">
                 <li>• Initial Premium: $60/month to age 22; then $120/month to age 65</li>
                 <li>• Total Premiums Paid: $69,840</li>
                 <li>• Cash Value at Age 65: $458,707 (Option B)</li>

@@ -40,6 +40,17 @@ export default function Resources() {
             <p className="text-gray-700 mb-4">Discover how starting an IUL early for a child or grandchild can be one of the most powerful financial decisions you make for their future security and wealth building.</p>
             <span className="mt-auto bg-[#00C3FF] text-white px-3 py-1 rounded font-semibold group-hover:bg-[#0077FF] transition">Read Article →</span>
           </a>
+
+          {/* Turning Points Article Card */}
+          <a href="/Resources/Turning-Points" className="bg-white rounded-xl shadow-lg p-6 flex flex-col items-start min-h-[220px] border border-[#FEA735] hover:shadow-xl transition group">
+            <div className="w-16 h-16 bg-[#2faeed] rounded-full flex items-center justify-center mb-4">
+              <span className="text-2xl text-white font-bold">📅</span>
+            </div>
+            <h2 className="text-xl font-semibold text-[#FE7235] mb-2 group-hover:underline">Turning Points: Your Decade-by-Decade Guide to Retirement Milestones</h2>
+            <div className="text-sm text-[#0077FF] mb-2">By Myla Pacis</div>
+            <p className="text-gray-700 mb-4">Navigate your retirement journey with confidence through key milestones from age 50 to 70, including catch-up contributions, Social Security benefits, and Medicare enrollment.</p>
+            <span className="mt-auto bg-[#00C3FF] text-white px-3 py-1 rounded font-semibold group-hover:bg-[#0077FF] transition">Read Article →</span>
+          </a>
           {/* Add more cards here in the future */}
         </div>
       </div>

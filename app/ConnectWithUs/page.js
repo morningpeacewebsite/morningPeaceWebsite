@@ -2,28 +2,10 @@ import Image from "next/image";
 
 export default function ConnectWithUs() {
   return (
-    <div className="w-full min-h-screen flex flex-col bg-[#fff6ed]">
+    <div className="w-full min-h-screen flex flex-col" style={{background: '#FCF5EF'}}>
       {/* Hero Section */}
-      <div className="w-full flex items-center justify-center min-h-[400px] md:min-h-[420px] px-4 md:px-8 pt-12 pb-0" style={{background: "linear-gradient(90deg, #ff9800 0%, #ffb347 100%)"}}>
-        <div className="max-w-7xl mx-auto w-full flex flex-col md:flex-row items-center justify-between">
-
-          <div className="flex-1 flex flex-col justify-center items-center md:items-start md:flex-row md:items-center md:gap-6">
-            <h1 className="text-6xl md:text-7xl font-extrabold mb-2 text-left leading-tight text-black">
-              Leave us a message
-            </h1>
-            <div className="mt-4 md:mt-0">
-              <Image
-                src="/src/img/contact_us.jpeg"
-                alt="Contact Us"
-                width={900}
-                height={900}
-                className="rounded-lg object-cover"
-              />
-            </div>
-          </div>
-          <div className="flex-1 flex items-end justify-center md:justify-end mt-8 md:mt-0">
-          </div>
-        </div>
+      <div className="w-full flex items-center justify-center min-h-[220px] md:min-h-[320px] bg-gradient-to-b from-[#FEA735] to-[#FE7235]">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg text-center">Connect With Us</h1>
       </div>
       {/* Contact Content Section */}
       <div className="w-full py-12 px-4 md:px-8" style={{background: '#FCF5EF'}}>

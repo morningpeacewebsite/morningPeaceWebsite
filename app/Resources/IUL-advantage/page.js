@@ -1,29 +1,38 @@
 export default function IULAdvantage() {
   return (
-    <div className="w-full min-h-screen flex flex-col">
+    <div className="w-full min-h-screen flex flex-col" style={{background: '#FCF5EF'}}>
       {/* Hero Section */}
-      <div className="w-full flex flex-col items-center justify-center min-h-[180px] md:min-h-[260px] bg-gradient-to-b from-orange-400 via-orange-300 to-orange-200 px-4">
-        <h1 className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-lg text-center mb-2">The IUL Advantage: What Your Accountant Wants You to Know</h1>
-        <div className="text-lg md:text-xl text-white font-semibold text-center mb-1">By Myla Pacis</div>
-        <div className="text-base text-white text-center mb-2">Regional Vice President, FEG</div>
+      <div className="w-full flex items-center justify-center min-h-[220px] md:min-h-[320px] bg-gradient-to-b from-[#FEA735] to-[#FE7235]">
+        <div className="max-w-7xl mx-auto px-4 md:px-8 text-center">
+          <h1 className="text-3xl md:text-4xl font-extrabold text-white drop-shadow-lg mb-4">
+            The IUL Advantage: What Your Accountant Wants You to Know
+          </h1>
+        </div>
       </div>
+      
       {/* Main Content Section */}
-      <div className="w-full bg-white py-12 px-4 flex flex-col items-center flex-1">
-        <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-900">
-          {/* Left Column */}
-          <div className="flex flex-col gap-6">
-            <h2 className="text-xl font-semibold text-orange-500 mb-2">A Trusted Solution in Uncertain Times</h2>
-            <p>While Indexed Universal Life (IUL) insurance has been around since the mid-1990s, its appeal has grown steadily over the last two decades. In the early years, during the stock market boom of the late '90s, IUL struggled to gain traction. At the time, many investors believed the market could only go up. But when the Dot-Com Bubble burst in 2000, followed by the Global Financial Crisis of 2008, the demand for more secure financial solutions surged—and IUL stepped into the spotlight.</p>
-            <p>The recent economic uncertainty brought on by the COVID-19 pandemic has once again reminded investors and advisors of the importance of downside protection and tax efficiency—two areas where IUL shines. Increasingly, accountants and financial professionals are recognizing IUL as a strategic, tax-advantaged alternative for long-term retirement planning and estate protection.</p>
-            <h2 className="text-xl font-semibold text-orange-500 mb-2">More Than Just a Retirement Tool</h2>
-            <p>While many use IULs primarily for tax-advantaged retirement income, it’s important to remember the core purpose of life insurance: protecting loved ones. The death benefit provides essential financial security in the event of an untimely death—something no mutual fund or retirement account can offer.</p>
-            <p>And for professionals like accountants—who understand the power of tax planning, wealth transfer, and legacy building—IUL presents a powerful, flexible solution that checks every box.</p>
-            <h2 className="text-xl font-semibold text-orange-500 mb-2">Final Thoughts</h2>
-            <p>When compared to traditional financial tools, IUL offers a rare combination of growth, protection, tax advantages, and flexibility. In a world of uncertainty, it’s no wonder that accountants and other financial advisors are increasingly recommending Indexed Universal Life as the Better Alternative Plan.</p>
+      <div className="w-full py-12 px-4 md:px-8 flex flex-col items-center flex-1">
+        <div className="max-w-7xl mx-auto w-full">
+          {/* Author */}
+          <div className="text-center mb-8">
+            <p className="text-lg text-[#2faeed] font-semibold">By Myla Pacis</p>
+            <p className="text-md text-gray-600">Regional Vice President, FEG</p>
           </div>
-          {/* Right Column */}
-          <div className="flex flex-col gap-6">
-            <h2 className="text-xl font-semibold text-orange-500 mb-2">Why Accountants Prefer IUL: Key Advantages</h2>
+          <div className="bg-white rounded-xl shadow-lg p-8 mb-8 grid grid-cols-1 md:grid-cols-2 gap-10">
+            {/* Left Column */}
+            <div className="flex flex-col gap-6">
+              <h2 className="text-xl font-semibold text-[#FE7235] mb-2">A Trusted Solution in Uncertain Times</h2>
+            <p className="text-md text-gray-700 leading-relaxed">While Indexed Universal Life (IUL) insurance has been around since the mid-1990s, its appeal has grown steadily over the last two decades. In the early years, during the stock market boom of the late '90s, IUL struggled to gain traction. At the time, many investors believed the market could only go up. But when the Dot-Com Bubble burst in 2000, followed by the Global Financial Crisis of 2008, the demand for more secure financial solutions surged—and IUL stepped into the spotlight.</p>
+            <p className="text-md text-gray-700 leading-relaxed">The recent economic uncertainty brought on by the COVID-19 pandemic has once again reminded investors and advisors of the importance of downside protection and tax efficiency—two areas where IUL shines. Increasingly, accountants and financial professionals are recognizing IUL as a strategic, tax-advantaged alternative for long-term retirement planning and estate protection.</p>
+            <h2 className="text-xl font-semibold text-[#FE7235] mb-2">More Than Just a Retirement Tool</h2>
+            <p className="text-md text-gray-700 leading-relaxed">While many use IULs primarily for tax-advantaged retirement income, it’s important to remember the core purpose of life insurance: protecting loved ones. The death benefit provides essential financial security in the event of an untimely death—something no mutual fund or retirement account can offer.</p>
+            <p className="text-md text-gray-700 leading-relaxed">And for professionals like accountants—who understand the power of tax planning, wealth transfer, and legacy building—IUL presents a powerful, flexible solution that checks every box.</p>
+            <h2 className="text-xl font-semibold text-[#FE7235] mb-2">Final Thoughts</h2>
+            <p className="text-md text-gray-700 leading-relaxed">When compared to traditional financial tools, IUL offers a rare combination of growth, protection, tax advantages, and flexibility. In a world of uncertainty, it’s no wonder that accountants and other financial advisors are increasingly recommending Indexed Universal Life as the Better Alternative Plan.</p>
+          </div>
+            {/* Right Column */}
+            <div className="flex flex-col gap-6">
+              <h2 className="text-xl font-semibold text-[#FE7235] mb-2">Why Accountants Prefer IUL: Key Advantages</h2>
             <ol className="list-decimal pl-6 mb-4 space-y-2 text-gray-900">
               <li><b>Tax-Deferred Growth with Triple Compounding</b><br/>IUL policy values grow tax-deferred, enabling what’s known as triple compounding:
                 <ul className="list-disc pl-6">
@@ -56,9 +65,10 @@ export default function IULAdvantage() {
               </li>
               <li><b>Easy 1035 Exchanges</b><br/>Need to upgrade or switch policies? IUL allows for tax-free 1035 exchanges—provided the insured qualifies for the new coverage. This makes it easier to transition outdated policies into newer, more efficient IUL contracts without triggering taxable events.</li>
             </ol>
-            <div className="mt-8 p-4 bg-orange-50 border-l-4 border-orange-400 text-gray-800 text-sm rounded">
-              <b>Disclosures:</b><br/>
-              This article is for informational purposes only and is not intended as tax, legal, or investment advice. Guarantees are based on the financial strength and claims-paying ability of the issuing insurance company. Indexed Universal Life policies are not direct investments in the stock market and may include fees and charges. Policy loans and withdrawals will reduce the cash value and death benefit of the policy.
+              <div className="mt-8 p-4 bg-gray-100 border-l-4 border-[#FEA735] text-gray-800 text-sm rounded">
+                <b>Disclosures:</b><br/>
+                This article is for informational purposes only and is not intended as tax, legal, or investment advice. Guarantees are based on the financial strength and claims-paying ability of the issuing insurance company. Indexed Universal Life policies are not direct investments in the stock market and may include fees and charges. Policy loans and withdrawals will reduce the cash value and death benefit of the policy.
+              </div>
             </div>
           </div>
         </div>

@@ -1,8 +1,13 @@
 export default function ConnectWithUs() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center bg-[#FCF5EF] py-12 px-4">
-      <h1 className="text-4xl md:text-5xl font-bold mb-8 text-center">Leave us a message</h1>
-      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 bg-white rounded-xl shadow-lg p-8">
+    <div className="w-full min-h-screen flex flex-col" style={{background: '#FCF5EF'}}>
+      {/* Hero Section */}
+      <div className="w-full flex items-center justify-center min-h-[220px] md:min-h-[320px] bg-gradient-to-b from-[#FEA735] to-[#FE7235]">
+        <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg text-center">Connect With Us</h1>
+      </div>
+      {/* Main Content Section */}
+      <div className="w-full py-12 px-4 flex flex-col items-center flex-1">
+        <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-12 bg-white rounded-xl shadow-lg p-8">
         {/* Contact Form */}
         <form className="flex flex-col gap-6">
           <div className="flex flex-col md:flex-row gap-4">
@@ -28,6 +33,7 @@ export default function ConnectWithUs() {
             <span className="font-semibold">Phone:</span><br/>
             443-297-7557
           </div>
+        </div>
         </div>
       </div>
     </div>
