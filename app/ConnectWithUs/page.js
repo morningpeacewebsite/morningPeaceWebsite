@@ -45,34 +45,68 @@ export default function ConnectWithUs() {
       {/* Appointment Booking Section */}
       <div className="w-full bg-white py-12 px-4 md:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="bg-white rounded-xl shadow-lg p-8 text-black">
-            <div className="flex items-start gap-4 mb-6">
-              <div className="w-8 h-8 bg-red-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
-                i
+          <div className="bg-white rounded-xl shadow-lg overflow-hidden">
+            {/* Enhanced Header with Logo */}
+            <div className="bg-gradient-to-r from-[#FEA735] to-[#FE7235] p-6 md:p-8 text-white">
+              {/* Logo Section */}
+              <div className="text-center mb-6">
+                <img 
+                  src="/src/img/Screenshot_2025-07-17_123817-removebg-preview.png" 
+                  alt="Morning Peace Financial Services" 
+                  className="h-24 md:h-32 w-auto mx-auto mb-4 drop-shadow-lg bg-white rounded-lg p-3"
+                />
               </div>
-              <div>
-                <h2 className="text-xl font-semibold text-black mb-2">Morning Peace</h2>
-                <h3 className="text-2xl font-bold text-black mb-2">Free 30-60 min Consultation</h3>
-                <div className="flex items-center gap-2 text-black mb-4">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
-                  </svg>
-                  <span>60 min appointments</span>
-                </div>
-                <p className="mb-4">
-                  This is a free 30-60 minute consultation with a licensed financial 
-                  professional from Morning Peace.
+              
+              {/* Main Content */}
+              <div className="text-center">
+                <h3 className="text-3xl md:text-4xl font-extrabold mb-3">Schedule Your Free Consultation</h3>
+                <p className="text-lg md:text-xl text-white/90 mb-6 max-w-2xl mx-auto">
+                  Take the first step toward financial peace of mind with a personalized consultation from our licensed professionals
                 </p>
-                <button className="text-[#FEA735] hover:text-[#FE7235] font-medium underline">
-                  Show more
-                </button>
+                
+                {/* Feature Badges */}
+                <div className="flex flex-wrap justify-center gap-3 md:gap-4 text-sm md:text-base">
+                  <div className="flex items-center gap-2 bg-white/25 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-white/30">
+                    <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
+                    </svg>
+                    <span className="font-semibold">30-60 Minutes</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-white/25 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-white/30">
+                    <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+                    </svg>
+                    <span className="font-semibold">100% Free</span>
+                  </div>
+                  <div className="flex items-center gap-2 bg-white/25 backdrop-blur-sm px-3 md:px-4 py-2 rounded-full border border-white/30">
+                    <svg className="w-4 h-4 md:w-5 md:h-5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                    </svg>
+                    <span className="font-semibold">No Obligation</span>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="border-t border-gray-200 pt-6">
-              <h4 className="text-lg font-semibold text-black mb-4">Select an appointment time</h4>
-              <p className="text-sm mb-6">(GMT-04:00) Eastern Time - New York</p>
-              {/* Calendar iframe placeholder */}
-              <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ23g0yG8Jw1BgQ0x3rgG3HkjogBHsoNTemdm97CCsOXC4z_SjTy9mTWsRuuGC6JwF1qRp4oODpa?gv=true" style={{border: '0', width: "100%", height: "600px", frameBorder: "0"}}></iframe>
+
+            {/* Calendar Content */}
+            <div className="p-8">
+              {/* What to Expect Section */}
+              <div className="text-center mb-8">
+                
+                {/* Trust Statement */}
+                <div className="mt-8 p-4 bg-gray-50 rounded-lg border-l-4 border-[#FEA735] max-w-3xl mx-auto">
+                  <p className="text-gray-700 font-medium">
+                    <span className="text-[#FE7235] font-semibold">Commitment to You:</span> This consultation is completely free with no pressure to purchase anything. Our goal is to provide you with valuable insights and help you make informed decisions about your financial future.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="border-t border-gray-200 pt-6">
+                <h4 className="text-xl font-semibold text-gray-900 mb-4 text-center">Choose Your Preferred Time</h4>
+                <p className="text-sm text-gray-600 mb-6 text-center">(GMT-04:00) Eastern Time - New York</p>
+                {/* Calendar iframe placeholder */}
+                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ23g0yG8Jw1BgQ0x3rgG3HkjogBHsoNTemdm97CCsOXC4z_SjTy9mTWsRuuGC6JwF1qRp4oODpa?gv=true" style={{border: '0', width: "100%", height: "600px", frameBorder: "0"}}></iframe>
+              </div>
             </div>
           </div>
         </div>
