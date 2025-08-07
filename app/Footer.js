@@ -27,14 +27,19 @@ export default function Footer() {
           </ul>
         </div>
         {/* right column: contact and button */}
-        <div className="flex-1 flex flex-col items-start gap-2">
-          <div className="text-sm">
+        <div className="flex-1 flex flex-col items-start gap-4">
+          <div className="text-sm leading-relaxed">
             <div>901 McCune Road</div>
             <div>Middle River, MD 21220</div>
             <div>Email</div>
             <div>443-297-7557</div>
           </div>
-          <button className="mt-4 bg-[#2faeed] hover:bg-[#0077FF] text-white px-5 py-2 rounded">Book a free consultation</button>
+          <a 
+            href="/ConnectWithUs" 
+            className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-base font-semibold hover:bg-[#0077FF] hover:shadow-lg transform hover:scale-105 transition-all duration-200 ease-in-out border-2 border-transparent hover:border-white/20"
+          >
+            📞 Book a Free Consultation
+          </a>
         </div>
         {/* social media column, on desktop */}
         <div className="hidden md:flex flex-col items-end gap-6 min-w-[60px]">
