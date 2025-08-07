@@ -13,14 +13,6 @@ export default function WhoWeAre() {
             </h1>
           </div>
           <div className="flex-1 flex items-end justify-center md:justify-end mt-8 md:mt-0">
-            <Image
-              src="/src/img/Screenshot 2025-07-17 125343.png"
-              alt="Elderly couple with advisor"
-              width={420}
-              height={420}
-              className="object-contain max-h-[340px] md:max-h-[420px] w-auto h-auto drop-shadow-xl"
-              priority
-            />
           </div>
         </div>
       </div>
@@ -36,10 +28,15 @@ export default function WhoWeAre() {
                 </p>
               </div>
               <div className="flex-1 flex justify-center">
-                <div className="w-full max-w-md h-80 bg-gray-100 rounded-lg flex flex-col items-center justify-center border-2 border-dashed border-gray-300">
-                  <span className="text-6xl mb-4">📖</span>
-                  <p className="text-gray-500 text-center font-medium">Our Story Image</p>
-                  <p className="text-gray-400 text-sm text-center mt-2">Placeholder for company story visual</p>
+                <div className="w-full max-w-md h-80 rounded-lg overflow-hidden flex items-center justify-center">
+                  <Image
+                    src="/src/img/couple_signing.jpeg"
+                    alt="Our Story Image"
+                    width={320}
+                    height={320}
+                    className="w-full h-full object-cover"
+                    priority
+                  />
                 </div>
               </div>
             </div>
@@ -65,7 +62,7 @@ export default function WhoWeAre() {
           </div>
           <div className="flex-1 flex items-center justify-center mt-10 md:mt-0 md:ml-10">
             <Image
-              src="/src/img/Screenshot 2025-07-17 125833.png"
+              src="/src/img/mission_n_vision.jpg"
               alt="Young couple with advisor"
               width={400}
               height={260}
@@ -77,4 +74,4 @@ export default function WhoWeAre() {
       </div>
     </div>
   );
-} 
+}
