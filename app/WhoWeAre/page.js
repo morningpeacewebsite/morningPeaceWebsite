@@ -1,4 +1,6 @@
+
 import Image from "next/image";
+import Link from "next/link";
 
 export default function WhoWeAre() {
   return (
@@ -49,7 +51,9 @@ export default function WhoWeAre() {
               <li><span className="font-bold">Clarity</span> – We make the complex simple and understandable.</li>
               <li><span className="font-bold">Commitment</span> – We are dedicated to your peace of mind, now and into the future.</li>
             </ul>
-            <button className="mt-4 px-8 py-3 bg-sky-400 text-white rounded-lg font-semibold shadow hover:bg-sky-500 transition">Contact Us</button>
+            <Link href="/ConnectWithUs">
+              <button className="mt-4 px-8 py-3 bg-sky-400 text-white rounded-lg font-semibold shadow hover:bg-sky-500 transition">Contact Us</button>
+            </Link>
           </div>
           <div className="flex-1 flex items-center justify-center mt-10 md:mt-0 md:ml-10">
             <Image

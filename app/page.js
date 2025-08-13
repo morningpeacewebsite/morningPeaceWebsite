@@ -21,7 +21,7 @@ export default function Home() {
           boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.15)",
         }}
       >
-        <h1 className="w-full text-3xl md:text-5xl font-bold leading-tight mb-4 text-white text-center">
+        <h1 className="w-full text-3xl md:text-5xl font-bold leading-tight mb-4 text-white text-center" style={{ textShadow: "2px 2px 8px rgba(0, 0, 0, 0.7)" }}>
           <span className="block">Your Future.</span>
           <span className="block text-blue-400">Your Peace of Mind.</span>
           <span className="block">Every Morning.</span>

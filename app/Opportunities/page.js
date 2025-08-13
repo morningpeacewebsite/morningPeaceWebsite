@@ -26,7 +26,7 @@ export default function Opportunities() {
                 </p>
                 <p className="text-xl md:text-2xl text-gray-800 leading-relaxed mb-8 font-semibold">
                   Are you <span className="text-[#FEA735] font-bold">passionate</span> about helping people, 
-                  <span className="text-[#FEA735] font-bold">driven</span> to succeed, and <span className="text-[#FEA735] font-bold">ready</span> to build a 
+                  <span className="text-[#FEA735] font-bold"> driven</span> to succeed, and <span className="text-[#FEA735] font-bold">ready</span> to build a 
                   rewarding career?
                 </p>
                 <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
@@ -41,15 +41,13 @@ export default function Opportunities() {
                 </p>
               </div>
               
-              {/* Image Placeholder */}
               <div className="flex-1 max-w-md">
-                <div className="w-full h-80 bg-gray-200 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <div className="text-4xl mb-2">🏢</div>
-                    <p className="text-lg font-semibold">Image Placeholder</p>
-                    <p className="text-sm">Career success or office image</p>
-                  </div>
-                </div>
+                <img
+                  src="/src/img/office setting.jpeg"
+                  alt="Office Setting"
+                  className="w-full h-80 object-cover rounded-lg"
+                  style={{ backgroundColor: 'transparent' }}
+                />
               </div>
             </div>
           </div>
@@ -85,15 +83,13 @@ export default function Opportunities() {
                 </ul>
               </div>
               
-              {/* Image Placeholder */}
               <div className="flex-1 max-w-md">
-                <div className="w-full h-64 bg-gray-200 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
-                  <div className="text-center text-gray-500">
-                    <div className="text-4xl mb-2">📸</div>
-                    <p className="text-lg font-semibold">Image Placeholder</p>
-                    <p className="text-sm">Team photo or professional image</p>
-                  </div>
-                </div>
+                <img
+                  src="/src/img/team_image.jpeg"
+                  alt="Team Image"
+                  className="w-full h-64 object-cover rounded-lg"
+                  style={{ backgroundColor: 'transparent' }}
+                />
               </div>
             </div>
           </div>

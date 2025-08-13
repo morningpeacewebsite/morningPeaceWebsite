@@ -20,10 +20,10 @@ export default function Navbar() {
       <div className="md:hidden flex items-center justify-between">
         <Link href="/">
           <Image
-            src="/src/img/Screenshot_2025-07-17_123817-removebg-preview.png"
+            src="/src/img/morning_peace_no_BG.png"
             alt="Morning Peace Financial Services Logo"
-            width={120}
-            height={48}
+            width={160}
+            height={64}
             priority
             style={{ cursor: 'pointer' }}
           />
@@ -48,14 +48,14 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center">
           <Link href="/">
-            <Image
-              src="/src/img/Screenshot_2025-07-17_123817-removebg-preview.png"
-              alt="Morning Peace Financial Services Logo"
-              width={120}
-              height={48}
-              priority
-              style={{ cursor: 'pointer' }}
-            />
+          <Image
+            src="/src/img/morning_peace_no_BG.png"
+            alt="Morning Peace Financial Services Logo"
+            width={160}
+            height={64}
+            priority
+            style={{ cursor: 'pointer' }}
+          />
           </Link>
         </div>
         
@@ -112,14 +112,14 @@ export default function Navbar() {
       <div className={`fixed top-0 left-0 w-3/4 max-w-xs h-full bg-[#FCF5EF] shadow-lg z-50 transform transition-transform duration-200 md:hidden ${mobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}`} style={{ fontFamily: 'var(--font-geist-sans), Arial, Helvetica, sans-serif' }}>
         <div className="flex items-center justify-between px-4 py-3 border-b border-orange-200">
           <Link href="/">
-            <Image
-              src="/src/img/Screenshot_2025-07-17_123817-removebg-preview.png"
-              alt="Morning Peace Financial Services Logo"
-              width={100}
-              height={40}
-              priority
-              style={{ cursor: 'pointer' }}
-            />
+          <Image
+            src="/src/img/morning_peace_no_BG.png"
+            alt="Morning Peace Financial Services Logo"
+            width={140}
+            height={56}
+            priority
+            style={{ cursor: 'pointer', position: 'relative', top: '-4px' }}
+          />
           </Link>
           <button onClick={() => setMobileMenuOpen(false)} aria-label="Close menu" className="text-gray-800 focus:outline-none">
             <svg className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -173,4 +173,4 @@ export default function Navbar() {
       </div>
     </nav>
   );
-} 
+}

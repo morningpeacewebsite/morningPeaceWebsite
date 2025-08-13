@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <footer className="w-full bg-gradient-to-b from-orange-400 via-orange-300 to-orange-200 text-white py-10 px-8">
@@ -5,10 +7,18 @@ export default function Footer() {
         {/* left column: main links */}
         <div className="flex-1 mb-6 md:mb-0">
           <ul className="space-y-4 text-lg font-bold">
-            <li className="hover:underline cursor-pointer">Who we are</li>
-            <li className="hover:underline cursor-pointer">What we offer</li>
-            <li className="hover:underline cursor-pointer">Resources</li>
-            <li className="hover:underline cursor-pointer">Opportunities</li>
+            <li>
+              <Link href="/WhoWeAre" className="hover:underline cursor-pointer">Who we are</Link>
+            </li>
+            <li>
+              <Link href="/WhatWeOffer" className="hover:underline cursor-pointer">What we offer</Link>
+            </li>
+            <li>
+              <Link href="/Resources" className="hover:underline cursor-pointer">Resources</Link>
+            </li>
+            <li>
+              <Link href="/Opportunities" className="hover:underline cursor-pointer">Opportunities</Link>
+            </li>
           </ul>
         </div>
         {/* center column: offerings and policies */}
@@ -22,7 +32,7 @@ export default function Footer() {
           <ul className="space-y-2 text-sm">
             <li className="font-semibold">FAQ</li>
             <li>
-              <a href="/privacy-policy" className="hover:underline cursor-pointer">Privacy Policy</a>
+              <Link href="/privacy-policy" className="hover:underline cursor-pointer">Privacy Policy</Link>
             </li>
           </ul>
         </div>
@@ -34,12 +44,12 @@ export default function Footer() {
             <div>Email</div>
             <div>443-297-7557</div>
           </div>
-          <a 
+          <Link 
             href="/ConnectWithUs" 
             className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-base font-semibold hover:bg-[#0077FF] hover:shadow-lg transform hover:scale-105 transition-all duration-200 ease-in-out border-2 border-transparent hover:border-white/20"
           >
             📞 Book a Free Consultation
-          </a>
+          </Link>
         </div>
         {/* social media column, on desktop */}
         <div className="hidden md:flex flex-col items-end gap-6 min-w-[60px]">
@@ -68,4 +78,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-} 
+}
