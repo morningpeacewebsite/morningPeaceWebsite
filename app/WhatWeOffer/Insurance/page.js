@@ -10,29 +10,38 @@ export default function Insurance() {
       <div className="w-full py-12 px-4 flex flex-col items-center flex-1">
         <div className="w-full max-w-7xl mx-auto">
           
-          {/* IUL Information Section */}
+          {/* Term Life Insurance Section */}
           <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <div className="w-full max-w-md h-80 bg-gray-100 rounded-lg flex flex-col items-center justify-center border-2 border-dashed border-gray-300">
-                  <span className="text-6xl mb-4">🛡️</span>
-                  <p className="text-gray-500 text-center font-medium">Insurance Protection</p>
-                  <p className="text-gray-400 text-sm text-center mt-2">Placeholder for IUL visual</p>
+                  <span className="text-6xl mb-4">⏰</span>
+                  <p className="text-gray-500 text-center font-medium">Term Life Protection</p>
+                  <p className="text-gray-400 text-sm text-center mt-2">Placeholder for term life visual</p>
                 </div>
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">WHAT IS INDEXED UNIVERSAL LIFE INSURANCE?</h2>
-                <p className="text-gray-800 text-xl leading-loose mb-6">
-                  Indexed universal life insurance (IUL) is permanent life insurance that offers death benefit protection when death occurs. Like other forms of permanent life insurance, the premium payments may earn interest and grow the cash value of the policy.
+                <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">TERM LIFE</h2>
+                <p className="text-gray-800 text-lg leading-relaxed mb-5">
+                  We can't always see what's coming — but you can plan ahead. Term life insurance offers affordable, straightforward protection for your loved ones during life's most important years.
                 </p>
-                <p className="text-gray-800 text-xl leading-loose mb-6">
-                  What differentiates FIUL from other permanent life insurance is the way interest is credited to the policy. In addition to offering a traditional declared interest rate, FIUL also offers the ability to earn interest that is linked to the movement of a selected underlying stock market index over a specific period of time.
+                <p className="text-gray-800 text-lg leading-relaxed mb-5">
+                  It covers you for a set period — typically 10, 15, or 20 years — and provides a financial safety net if the unexpected happens. Compared to long-term or permanent policies, term life is often more budget-friendly, making it a smart choice for families, new homeowners, or anyone wanting strong coverage without the higher cost.
                 </p>
+                <div className="bg-gray-50 p-4 rounded-lg mb-6">
+                  <h4 className="text-lg font-bold text-gray-800 mb-3">MORTGAGE PROTECTION</h4>
+                  <p className="text-gray-800 text-base leading-relaxed mb-3">
+                    <strong>Keep your home — even if life takes an unexpected turn.</strong>
+                  </p>
+                  <p className="text-gray-800 text-base leading-relaxed">
+                    Mortgage Protection Insurance is a type of life insurance designed to help your family pay off your mortgage if you pass away or become seriously ill. It ensures that your loved ones can stay in their home without the added financial stress during a difficult time.
+                  </p>
+                </div>
                 <a 
                   href="/ConnectWithUs" 
                   className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#0077FF] transition shadow-md"
                 >
-                  Book a Free Consultation
+                  Connect with an Agent
                 </a>
               </div>
             </div>
@@ -73,38 +82,29 @@ export default function Insurance() {
             </div>
           </div>
 
-          {/* Term Life Insurance Section */}
+          {/* IUL Information Section */}
           <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <div className="w-full max-w-md h-80 bg-gray-100 rounded-lg flex flex-col items-center justify-center border-2 border-dashed border-gray-300">
-                  <span className="text-6xl mb-4">⏰</span>
-                  <p className="text-gray-500 text-center font-medium">Term Life Protection</p>
-                  <p className="text-gray-400 text-sm text-center mt-2">Placeholder for term life visual</p>
+                  <span className="text-6xl mb-4">🛡️</span>
+                  <p className="text-gray-500 text-center font-medium">Insurance Protection</p>
+                  <p className="text-gray-400 text-sm text-center mt-2">Placeholder for IUL visual</p>
                 </div>
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">TERM LIFE</h2>
-                <p className="text-gray-800 text-lg leading-relaxed mb-5">
-                  We can't always see what's coming — but you can plan ahead. Term life insurance offers affordable, straightforward protection for your loved ones during life's most important years.
+                <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">WHAT IS INDEXED UNIVERSAL LIFE INSURANCE?</h2>
+                <p className="text-gray-800 text-xl leading-loose mb-6">
+                  Indexed universal life insurance (IUL) is permanent life insurance that offers death benefit protection when death occurs. Like other forms of permanent life insurance, the premium payments may earn interest and grow the cash value of the policy.
                 </p>
-                <p className="text-gray-800 text-lg leading-relaxed mb-5">
-                  It covers you for a set period — typically 10, 15, or 20 years — and provides a financial safety net if the unexpected happens. Compared to long-term or permanent policies, term life is often more budget-friendly, making it a smart choice for families, new homeowners, or anyone wanting strong coverage without the higher cost.
+                <p className="text-gray-800 text-xl leading-loose mb-6">
+                  What differentiates FIUL from other permanent life insurance is the way interest is credited to the policy. In addition to offering a traditional declared interest rate, FIUL also offers the ability to earn interest that is linked to the movement of a selected underlying stock market index over a specific period of time.
                 </p>
-                <div className="bg-gray-50 p-4 rounded-lg mb-6">
-                  <h4 className="text-lg font-bold text-gray-800 mb-3">MORTGAGE PROTECTION</h4>
-                  <p className="text-gray-800 text-base leading-relaxed mb-3">
-                    <strong>Keep your home — even if life takes an unexpected turn.</strong>
-                  </p>
-                  <p className="text-gray-800 text-base leading-relaxed">
-                    Mortgage Protection Insurance is a type of life insurance designed to help your family pay off your mortgage if you pass away or become seriously ill. It ensures that your loved ones can stay in their home without the added financial stress during a difficult time.
-                  </p>
-                </div>
                 <a 
                   href="/ConnectWithUs" 
                   className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#0077FF] transition shadow-md"
                 >
-                  Connect with an Agent
+                  Book a Free Consultation
                 </a>
               </div>
             </div>
