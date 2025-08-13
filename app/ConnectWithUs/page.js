@@ -1,6 +1,34 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function ConnectWithUs() {
+  const [formState, setFormState] = useState({ name: "", phone: "", email: "", message: "" });
+  const [status, setStatus] = useState({ sending: false, ok: null, error: null });
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    if (status.sending) return;
+    setStatus({ sending: true, ok: null, error: null });
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formState.name.trim(),
+          phone: formState.phone.trim(),
+          email: formState.email.trim(),
+          message: formState.message.trim(),
+        })
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data?.error || 'Failed to send');
+      setStatus({ sending: false, ok: true, error: null });
+      setFormState({ name: "", phone: "", email: "", message: "" });
+    } catch (err) {
+      setStatus({ sending: false, ok: false, error: err.message || 'Something went wrong' });
+    }
+  }
   return (
     <div className="w-full min-h-screen flex flex-col" style={{background: '#FCF5EF'}}>
       {/* Hero Section */}
@@ -13,14 +41,52 @@ export default function ConnectWithUs() {
           <div className="bg-white rounded-xl shadow-lg p-8 text-black">
             <div className="flex flex-col md:flex-row gap-12">
               {/* Contact Form */}
-              <form className="flex flex-col gap-6 flex-1">
+              <form className="flex flex-col gap-6 flex-1" onSubmit={handleSubmit}>
                 <div className="flex flex-col md:flex-row gap-4">
-                  <input type="text" placeholder="Full Name" className="flex-1 border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg text-black" />
-                  <input type="text" placeholder="Phone number" className="flex-1 border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg text-black" />
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    className="flex-1 border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg text-black"
+                    value={formState.name}
+                    onChange={(e) => setFormState(s => ({ ...s, name: e.target.value }))}
+                  />
+                  <input
+                    type="text"
+                    placeholder="Phone number"
+                    className="flex-1 border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg text-black"
+                    value={formState.phone}
+                    onChange={(e) => setFormState(s => ({ ...s, phone: e.target.value }))}
+                  />
                 </div>
-                <input type="email" placeholder="Email" className="border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg text-black" />
-                <textarea placeholder="Message" rows={4} className="border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg resize-none text-black" />
-                <button type="submit" className="mt-4 w-40 bg-[#FEA735] hover:bg-[#FE7235] text-white font-bold py-3 rounded-full self-end transition">Submit</button>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg text-black"
+                  value={formState.email}
+                  onChange={(e) => setFormState(s => ({ ...s, email: e.target.value }))}
+                  required
+                />
+                <textarea
+                  placeholder="Message"
+                  rows={4}
+                  className="border-b-2 border-gray-200 focus:border-[#FEA735] outline-none py-2 px-2 text-lg resize-none text-black"
+                  value={formState.message}
+                  onChange={(e) => setFormState(s => ({ ...s, message: e.target.value }))}
+                  required
+                />
+                <div className="flex items-center justify-between mt-2">
+                  <div className="text-sm">
+                    {status.ok && <span className="text-green-600">Message sent successfully.</span>}
+                    {status.error && <span className="text-red-600">{status.error}</span>}
+                  </div>
+                  <button
+                    type="submit"
+                    disabled={status.sending}
+                    className="mt-4 w-40 bg-[#FEA735] hover:bg-[#FE7235] disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold py-3 rounded-full self-end transition"
+                  >
+                    {status.sending ? 'Sending…' : 'Submit'}
+                  </button>
+                </div>
               </form>
               {/* Contact Info */}
               <div className="flex flex-col justify-center gap-6 text-black text-lg flex-1">

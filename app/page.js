@@ -7,11 +7,11 @@ export default function Home() {
       <Image
         src="/src/img/sunsetBG (1).png"
         alt="Sunset Background"
-        layout="fill"
-        objectFit="cover"
+        fill
         quality={100}
         priority
         className="z-0"
+        style={{ objectFit: 'cover' }}
       />
       {/* overlay box */}
       <div
