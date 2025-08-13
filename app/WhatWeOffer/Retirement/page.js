@@ -30,8 +30,8 @@ export default function Retirement() {
               <div className="flex-1 flex justify-center">
                 <div className="w-full max-w-md">
                   <Image
-                    src="/Roadmap to Retirement.PNG"
-                    alt="Roadmap to Retirement Planning"
+                    src="/src/img/financial-freedom.jpg"
+                    alt="Financial Freedom"
                     width={400}
                     height={300}
                     className="rounded-lg shadow-md"
@@ -50,14 +50,12 @@ export default function Retirement() {
               </div>
               <h3 className="text-2xl font-semibold text-[#FE7235] mb-4">Tax-Free Retirement Strategies</h3>
               <p className="text-gray-700 mb-4">
-                Discover how to create tax-free retirement income through strategic planning with life insurance 
-                and other tax-advantaged vehicles.
+                Discover how to create tax-free retirement income through strategic planning with life insurance and other tax-advantaged vehicles.
               </p>
               <ul className="text-gray-600 space-y-2">
-                <li>• Indexed Universal Life (IUL) Strategies</li>
-                <li>• Roth IRA Conversions</li>
-                <li>• Tax-Free Income Planning</li>
-                <li>• Municipal Bond Strategies</li>
+                <li>• Tax Free Income Planning</li>
+                <li>• Index Universal Life (IUL) Strategies</li>
+                <li>• Roth IRA Rollovers</li>
               </ul>
             </div>
 
@@ -66,16 +64,15 @@ export default function Retirement() {
               <div className="w-16 h-16 bg-[#FEA735] rounded-full flex items-center justify-center mb-4">
                 <span className="text-2xl text-white">📈</span>
               </div>
-              <h3 className="text-2xl font-semibold text-[#FE7235] mb-4">Annuities & Income Solutions</h3>
+              <h3 className="text-2xl font-semibold text-[#FE7235] mb-4">Annuities and Income Solutions</h3>
               <p className="text-gray-700 mb-4">
-                Secure guaranteed income streams that you can't outlive, providing peace of mind 
-                and financial stability throughout retirement.
+                Secure guaranteed income streams that you can't outlive, providing peace of mind and financial stability throughout retirement.
               </p>
               <ul className="text-gray-600 space-y-2">
-                <li>• Fixed Annuities</li>
-                <li>• Variable Annuities</li>
+                <li>• Fixed Index Annuities</li>
                 <li>• Immediate Income Annuities</li>
                 <li>• Deferred Income Planning</li>
+                <li>• Multi Year Guarantee Annuities</li>
               </ul>
             </div>
           </div>

@@ -135,6 +135,16 @@ export default function TurningPoints() {
             </p>
           </div>
 
+          {/* Roadmap to Retirement Image */}
+          <div className="flex justify-center my-12">
+            <img
+              src="/Roadmap to Retirement.PNG"
+              alt="Roadmap to Retirement"
+              className="max-w-full h-auto rounded-lg shadow-lg border border-gray-300"
+              style={{ maxHeight: '500px' }}
+            />
+          </div>
+
           {/* Footnotes */}
           <div className="bg-gray-100 border-l-4 border-[#FEA735] p-6 rounded-lg mb-6">
             <h4 className="text-lg font-bold text-gray-800 mb-4">Footnotes:</h4>

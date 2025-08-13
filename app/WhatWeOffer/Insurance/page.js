@@ -10,6 +10,7 @@ export default function Insurance() {
       <div className="w-full py-12 px-4 flex flex-col items-center flex-1">
         <div className="w-full max-w-7xl mx-auto">
           
+
           {/* Term Life Insurance Section */}
           <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8">
@@ -26,7 +27,7 @@ export default function Insurance() {
                   We can't always see what's coming — but you can plan ahead. Term life insurance offers affordable, straightforward protection for your loved ones during life's most important years.
                 </p>
                 <p className="text-gray-800 text-lg leading-relaxed mb-5">
-                  It covers you for a set period — typically 10, 15, or 20 years — and provides a financial safety net if the unexpected happens. Compared to long-term or permanent policies, term life is often more budget-friendly, making it a smart choice for families, new homeowners, or anyone wanting strong coverage without the higher cost.
+                  It covers you for a set period — typically 10, 15, 20 up to 35 years — and provides a financial safety net if the unexpected happens. Compared to long-term or permanent policies, term life is often more budget-friendly, making it a smart choice for starting families, new homeowners, or anyone wanting strong coverage without the higher cost.
                 </p>
                 <div className="bg-gray-50 p-4 rounded-lg mb-6">
                   <h4 className="text-lg font-bold text-gray-800 mb-3">MORTGAGE PROTECTION</h4>
@@ -82,6 +83,7 @@ export default function Insurance() {
             </div>
           </div>
 
+
           {/* IUL Information Section */}
           <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8">
@@ -95,10 +97,10 @@ export default function Insurance() {
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">WHAT IS INDEXED UNIVERSAL LIFE INSURANCE?</h2>
                 <p className="text-gray-800 text-xl leading-loose mb-6">
-                  Indexed universal life insurance (IUL) is permanent life insurance that offers death benefit protection when death occurs. Like other forms of permanent life insurance, the premium payments may earn interest and grow the cash value of the policy.
+                  IUL, or Indexed Universal Life insurance, is a type of permanent life insurance that provides lifelong coverage. It offers cash value growth while you are still alive, along with protection and a legacy for your loved ones when you pass away. The cash value grows based on the performance of a stock or bond market index, such as the S&P 500, but it is not directly invested in the market. You get the benefit of the index’s performance with protection from market losses.
                 </p>
                 <p className="text-gray-800 text-xl leading-loose mb-6">
-                  What differentiates FIUL from other permanent life insurance is the way interest is credited to the policy. In addition to offering a traditional declared interest rate, FIUL also offers the ability to earn interest that is linked to the movement of a selected underlying stock market index over a specific period of time.
+                  An IUL can offer tax-deferred growth and potential tax-free withdrawals in retirement, making it an attractive option for those who have already maxed out other retirement savings accounts. The combination of lifelong protection, growth potential, and downside protection makes an IUL a valuable financial tool.
                 </p>
                 <a 
                   href="/ConnectWithUs" 
