@@ -18,42 +18,29 @@ export const metadata = {
   description: "Morning Peace Financial Services",
   metadataBase: new URL('https://www.morningpeace.org/'),
   icons: {
-    icon: [
-      { url: "/morning-peace-logo.png?v=2", type: "image/png", sizes: "any" },
-    ],
-    shortcut: [
-      { url: "/morning-peace-logo.png?v=2", type: "image/png", sizes: "any" },
-    ],
-    apple: [
-      { url: "/morning-peace-logo.png?v=2", type: "image/png" },
-    ],
+    icon: "/morning-peace-logo.png",
+    shortcut: "/morning-peace-logo.png",
+    apple: "/morning-peace-logo.png",
   },
   openGraph: {
     title: "Morning Peace",
     description: "Morning Peace Financial Services",
-    images: [
-      "/src/img/morning_peace_no_BG.png",
-    ],
+    images: ["/morning-peace-logo.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Morning Peace",
     description: "Morning Peace Financial Services",
-    images: [
-      "/src/img/morning_peace_no_BG.png",
-    ],
+    images: ["/morning-peace-logo.png"],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-			<head>
-				<link rel="icon" href="/favicon.ico?v=2" />
-				<link rel="icon" href="/morning-peace-logo.png?v=2" type="image/png" />
-				<link rel="shortcut icon" href="/morning-peace-logo.png?v=2" type="image/png" />
-				<title>Morning Peace</title>
-			</head>
+      <head>
+        <title>Morning Peace</title>
+      </head>
       <body className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">{children}</main>
