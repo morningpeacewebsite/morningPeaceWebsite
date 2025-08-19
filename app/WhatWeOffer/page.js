@@ -15,14 +15,16 @@ export default function WhatWeOffer() {
             </div>
             <h2 className="text-2xl font-semibold text-[#FE7235] mb-4 group-hover:underline">Insurance Solutions</h2>
             <p className="text-gray-700 mb-6 text-lg leading-relaxed">
-              Protect what matters most with our comprehensive life insurance options. From term life to indexed universal life (IUL), 
+              Protect what matters most with our comprehensive life insurance options. From Term Life to Index Universal Life (IUL), 
               we provide coverage that adapts to your changing needs and helps secure your family's financial future.
             </p>
             <ul className="text-gray-600 mb-4 space-y-2">
-              <li>• Term Life Insurance</li>
-              <li>• Indexed Universal Life (IUL)</li>
-              <li>• Living Benefits Coverage</li>
-              <li>• Family Protection Plans</li>
+              <li>• Index Universal Life (IUL)</li>
+              <li>• Living Benefits</li>
+              <li>• Business Insurance</li>
+              <li>• Term Life with Living Benefits</li>
+              <li>• Mortgage Protection Plans</li>
+              <li>• Juvenile Fixed Index</li>
             </ul>
             <span className="mt-auto bg-[#00C3FF] text-white px-4 py-2 rounded font-semibold group-hover:bg-[#0077FF] transition">Explore Insurance →</span>
           </a>
@@ -38,10 +40,11 @@ export default function WhatWeOffer() {
               we help you create a secure financial future that lets you retire with confidence and peace of mind.
             </p>
             <ul className="text-gray-600 mb-4 space-y-2">
-              <li>• Tax-Free Retirement Strategies</li>
-              <li>• Fixed & Variable Annuities</li>
+              <li>• Tax Free Retirement Strategies</li>
+              <li>• Fixed and Fixed Index Annuities</li>
+              <li>• Multi Year Guaranteed Annuities</li>
               <li>• Income Planning Solutions</li>
-              <li>• Legacy & Estate Planning</li>
+              <li>• Legacy and Estate Planning</li>
             </ul>
             <span className="mt-auto bg-[#00C3FF] text-white px-4 py-2 rounded font-semibold group-hover:bg-[#0077FF] transition">Explore Retirement →</span>
           </a>
@@ -49,4 +52,4 @@ export default function WhatWeOffer() {
       </div>
     </div>
   );
-} 
+}
