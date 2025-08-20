@@ -54,7 +54,7 @@ export default function Footer() {
         {/* social media column, on desktop */}
         <div className="hidden md:flex flex-col items-end gap-6 min-w-[60px]">
           <a href="#" aria-label="Facebook" className="no-shadow w-12 h-12 flex items-center justify-center">
-            <img src="/facebook.png" alt="Facebook" className=" no-shadoww-12 h-12 object-contain" />
+            <img src="/facebook.png" alt="Facebook" className=" no-shadow w-12 h-12 object-contain" />
           </a>
           <a href="#" aria-label="Instagram" className="no-shadow w-12 h-12 flex items-center justify-center">
             <img src="/instagram.png" alt="Instagram" className="no-shadow w-12 h-12 object-contain" />
@@ -67,10 +67,10 @@ export default function Footer() {
       {/* social media row, on mobile */}
       <div className="md:hidden flex justify-center gap-8 mt-8">
         <a href="#" aria-label="Facebook" className="no-shadow w-10 h-10 flex items-center justify-center">
-          <img src="/facebook.png" alt="Facebook" className=" no-shadoww-10 h-10 object-contain" />
+          <img src="/facebook.png" alt="Facebook" className=" no-shadow w-10 h-10 object-contain" />
         </a>
         <a href="#" aria-label="Instagram" className="no-shadow w-10 h-10 flex items-center justify-center">
-          <img src="/instagram.png" alt="Instagram" className=" no-shadoww-10 h-10 object-contain" />
+          <img src="/instagram.png" alt="Instagram" className=" no-shadow w-10 h-10 object-contain" />
         </a>
         <a href="#" aria-label="LinkedIn" className="no-shadow w-10 h-10 flex items-center justify-center">
           <img src="/linkedin.png" alt="LinkedIn" className="no-shadow w-10 h-10 object-contain" />
