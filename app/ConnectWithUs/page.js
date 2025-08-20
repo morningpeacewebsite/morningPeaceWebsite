@@ -97,7 +97,7 @@ export default function ConnectWithUs() {
                 </div>
                 <div>
                   <span className="font-semibold">Email:</span><br/>
-                  info@morningpeacefinancial.org
+                  info@morningpeacefinancial.com
                 </div>
                 <div>
                   <span className="font-semibold">Phone:</span><br/>
@@ -171,7 +171,7 @@ export default function ConnectWithUs() {
                 <h4 className="text-xl font-semibold text-gray-900 mb-4 text-center">Choose Your Preferred Time</h4>
                 <p className="text-sm text-gray-600 mb-6 text-center">(GMT-04:00) Eastern Time - New York</p>
                 {/* Calendar iframe placeholder */}
-                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ23g0yG8Jw1BgQ0x3rgG3HkjogBHsoNTemdm97CCsOXC4z_SjTy9mTWsRuuGC6JwF1qRp4oODpa?gv=true" style={{border: '0', width: "100%", height: "600px", frameBorder: "0"}}></iframe>
+                <iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ17kC2hsJujBmrY7z1a3A-j5W9wn-2K9ZpiUF0DU7CVGtTbDUaU8KrXPi4u7Dh5Lr2mQ_uWPzTj?gv=true" style={{border: '0', width: "100%", height: "600px", frameBorder: "0"}}></iframe>
               </div>
             </div>
           </div>
