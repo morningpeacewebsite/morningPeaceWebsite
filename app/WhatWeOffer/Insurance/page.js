@@ -79,7 +79,7 @@ export default function Insurance() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <img 
-                src="/term_life.jpg" 
+                src="/couple_signing.jpeg" 
                 alt="Term Life Insurance" 
                 className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
               />

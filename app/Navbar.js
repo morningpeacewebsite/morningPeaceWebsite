@@ -25,6 +25,7 @@ export default function Navbar() {
             width={160}
             height={64}
             priority
+            className="no-shadow"
             style={{ cursor: 'pointer' }}
           />
         </Link>
@@ -47,16 +48,17 @@ export default function Navbar() {
       <div className="hidden md:flex items-center justify-between max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center">
-          <Link href="/">
+        <Link href="/">
           <Image
             src="/morning_peace_no_BG.png"
             alt="Morning Peace Financial Services Logo"
             width={160}
             height={64}
             priority
+            className="no-shadow"
             style={{ cursor: 'pointer' }}
           />
-          </Link>
+        </Link>
         </div>
         
         {/* Desktop nav links */}
@@ -118,6 +120,7 @@ export default function Navbar() {
             width={140}
             height={56}
             priority
+            className="no-shadow"
             style={{ cursor: 'pointer', position: 'relative', top: '-4px' }}
           />
           </Link>

@@ -8,7 +8,7 @@ export default function WhoWeAre() {
       <div className="w-full flex items-center justify-center min-h-[220px] md:min-h-[320px] bg-gradient-to-b from-[#FEA735] to-[#FE7235]">
         <div className="flex items-center space-x-4">
           {/* <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">What is Morning Peace?</h1> */}
-          <div className="bg-white rounded-lg shadow-md w-64 h-32 relative">
+          <div className="bg-white rounded-lg shadow-md w-128 h-64 relative">
             <Image
               src="/morning_peace_no_BG.png"
               alt="Morning Peace Financial Services Logo"
@@ -31,13 +31,13 @@ export default function WhoWeAre() {
                 </p>
               </div>
               <div className="flex-1 flex justify-center">
-                <div className="w-full max-w-md h-80 rounded-lg overflow-hidden flex items-center justify-center">
-                  <Image
+                <div className="w-full max-w-md h-80 rounded-lg  flex items-center justify-center">
+                <Image
                   src="/couple_signing.jpeg"
                   alt="Our Story Image"
-                  width={320}
+                  width={360}
                   height={320}
-                  className="w-full h-full object-cover"
+                  className="rounded-lg shadow-lg object-cover w-full h-auto"
                   priority
                 />
                 </div>

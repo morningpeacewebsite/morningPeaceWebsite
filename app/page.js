@@ -10,7 +10,7 @@ export default function Home() {
         fill
         quality={100}
         priority
-        className="z-0"
+        className="z-0 no-shadow"
         style={{ objectFit: 'cover' }}
       />
       {/* overlay box */}
