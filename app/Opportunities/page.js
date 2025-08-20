@@ -110,7 +110,7 @@ export default function Opportunities() {
             <p className="text-xl font-semibold text-gray-900 mb-8">
               Start your journey today. Join our team.
             </p>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf0Bz_QRMhu_DsTWAWvptgFj1jzKCmiEibW5dF0U6Yb61WhMQ/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="bg-[#FEA735] hover:bg-[#FE7235] text-white font-bold py-4 px-8 rounded-full text-lg transition-colors duration-300 shadow-lg inline-block">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScAmK7FGqiecBde33KaM31g0ITnaI3ZdGVR63Nueghm3asATQ/viewform?usp=header" target="_blank" rel="noopener noreferrer" className="bg-[#FEA735] hover:bg-[#FE7235] text-white font-bold py-4 px-8 rounded-full text-lg transition-colors duration-300 shadow-lg inline-block">
               Schedule a Call
             </a>
           </div>
