@@ -10,7 +10,7 @@ export default function WhoWeAre() {
           <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">What is Morning Peace?</h1>
           <div className="bg-white p-2 rounded-lg shadow-md">
             <Image
-              src="/src/img/morning_peace_no_BG.png"
+              src="/morning_peace_no_BG.png"
               alt="Morning Peace Financial Services Logo"
               width={160}
               height={64}
@@ -33,13 +33,13 @@ export default function WhoWeAre() {
               <div className="flex-1 flex justify-center">
                 <div className="w-full max-w-md h-80 rounded-lg overflow-hidden flex items-center justify-center">
                   <Image
-                    src="/src/img/couple_signing.jpeg"
-                    alt="Our Story Image"
-                    width={320}
-                    height={320}
-                    className="w-full h-full object-cover"
-                    priority
-                  />
+                  src="/couple_signing.jpeg"
+                  alt="Our Story Image"
+                  width={320}
+                  height={320}
+                  className="w-full h-full object-cover"
+                  priority
+                />
                 </div>
               </div>
             </div>
@@ -66,14 +66,14 @@ export default function WhoWeAre() {
             </Link>
           </div>
           <div className="flex-1 flex items-center justify-center mt-10 md:mt-0 md:ml-10">
-            <Image
-              src="/src/img/mission_n_vision.jpg"
-              alt="Young couple with advisor"
-              width={400}
-              height={260}
-              className="rounded-lg shadow-lg object-cover max-h-[260px] w-auto h-auto"
-              priority
-            />
+              <Image
+                src="/mission_n_vision.jpg"
+                alt="Young couple with advisor"
+                width={400}
+                height={260}
+                className="rounded-lg shadow-lg object-cover max-h-[260px] w-auto h-auto"
+                priority
+              />
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ export default function Retirement() {
               <div className="flex-1 flex justify-center">
                 <div className="w-full max-w-md">
                   <Image
-                    src="/src/img/financial-freedom.jpg"
+                    src="/financial-freedom.jpg"
                     alt="Financial Freedom"
                     width={400}
                     height={300}

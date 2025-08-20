@@ -43,7 +43,7 @@ export default function Opportunities() {
               
               <div className="flex-1 max-w-md">
                 <img
-                  src="/src/img/office setting.jpeg"
+                  src="/office setting.jpeg"
                   alt="Office Setting"
                   className="w-full h-80 object-cover rounded-lg"
                   style={{ backgroundColor: 'transparent' }}
@@ -85,7 +85,7 @@ export default function Opportunities() {
               
               <div className="flex-1 max-w-md">
                 <img
-                  src="/src/img/team_image.jpeg"
+                  src="/team_image.jpeg"
                   alt="Team Image"
                   className="w-full h-64 object-cover rounded-lg"
                   style={{ backgroundColor: 'transparent' }}

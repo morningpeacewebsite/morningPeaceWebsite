@@ -16,10 +16,10 @@ export default function Insurance() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <img 
-                  src="/src/img/iul_img.jpeg" 
-                  alt="Indexed Universal Life Insurance" 
-                  className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
-                />
+                src="/iul_img.jpeg" 
+                alt="Indexed Universal Life Insurance" 
+                className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
+              />
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">WHAT IS INDEXED UNIVERSAL LIFE INSURANCE?</h2>
@@ -44,10 +44,10 @@ export default function Insurance() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <img 
-                  src="/src/img/living-benefits_img.jpg" 
-                  alt="Living Benefits Insurance" 
-                  className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
-                />
+                src="/living-benefits_img.jpg" 
+                alt="Living Benefits Insurance" 
+                className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
+              />
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">LIVING BENEFITS</h2>
@@ -79,10 +79,10 @@ export default function Insurance() {
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <img 
-                  src="/src/img/term_life.jpg" 
-                  alt="Term Life Insurance" 
-                  className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
-                />
+                src="/term_life.jpg" 
+                alt="Term Life Insurance" 
+                className="w-full max-w-md h-80 object-cover rounded-lg border border-gray-300" 
+              />
               </div>
               <div className="flex-1">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#FE7235] mb-6">TERM LIFE</h2>

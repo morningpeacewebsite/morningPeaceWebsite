@@ -117,7 +117,7 @@ export default function ConnectWithUs() {
               {/* Logo Section */}
               <div className="text-center mb-6">
                 <img 
-                  src="/src/img/Screenshot_2025-07-17_123817-removebg-preview.png" 
+                  src="/Screenshot_2025-07-17_123817-removebg-preview.png" 
                   alt="Morning Peace Financial Services" 
                   className="h-24 md:h-32 w-auto mx-auto mb-4 drop-shadow-lg bg-white rounded-lg p-3"
                 />

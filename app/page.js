@@ -5,7 +5,7 @@ export default function Home() {
     <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden">
       {/* background img */}
       <Image
-        src="/src/img/sunsetBG (1).png"
+        src="/sunsetBG (1).png"
         alt="Sunset Background"
         fill
         quality={100}

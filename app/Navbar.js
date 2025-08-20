@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="md:hidden flex items-center justify-between">
         <Link href="/">
           <Image
-            src="/src/img/morning_peace_no_BG.png"
+            src="/morning_peace_no_BG.png"
             alt="Morning Peace Financial Services Logo"
             width={160}
             height={64}
@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <Link href="/">
           <Image
-            src="/src/img/morning_peace_no_BG.png"
+            src="/morning_peace_no_BG.png"
             alt="Morning Peace Financial Services Logo"
             width={160}
             height={64}
@@ -113,7 +113,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between px-4 py-3 border-b border-orange-200">
           <Link href="/">
           <Image
-            src="/src/img/morning_peace_no_BG.png"
+            src="/morning_peace_no_BG.png"
             alt="Morning Peace Financial Services Logo"
             width={140}
             height={56}
