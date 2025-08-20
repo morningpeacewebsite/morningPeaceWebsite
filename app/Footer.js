@@ -41,7 +41,7 @@ export default function Footer() {
           <div className="text-sm leading-relaxed">
             <div>901 McCune Road</div>
             <div>Middle River, MD 21220</div>
-            <div>Email</div>
+            <div>info@morningpeacefinancial.org</div>
             <div>443-297-7557</div>
           </div>
           <Link 

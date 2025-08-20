@@ -7,13 +7,13 @@ export default function WhoWeAre() {
       {/* Hero Section */}
       <div className="w-full flex items-center justify-center min-h-[220px] md:min-h-[320px] bg-gradient-to-b from-[#FEA735] to-[#FE7235]">
         <div className="flex items-center space-x-4">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">What is Morning Peace?</h1>
-          <div className="bg-white p-2 rounded-lg shadow-md">
+          {/* <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">What is Morning Peace?</h1> */}
+          <div className="bg-white rounded-lg shadow-md w-64 h-32 relative">
             <Image
               src="/morning_peace_no_BG.png"
               alt="Morning Peace Financial Services Logo"
-              width={160}
-              height={64}
+              fill
+              style={{ objectFit: 'cover' }}
               priority
             />
           </div>
@@ -74,6 +74,55 @@ export default function WhoWeAre() {
                 className="rounded-lg shadow-lg object-cover max-h-[260px] w-auto h-auto"
                 priority
               />
+          </div>
+        </div>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="w-full py-12 px-4 md:px-8" style={{background: '#FCF5EF'}}>
+        <div className="max-w-7xl mx-auto bg-white rounded-xl shadow-lg p-8 flex flex-col md:flex-row items-start gap-8">
+          <div className="flex-1 max-w-md relative">
+            <img
+              src="/FAQ_img.jpg"
+              alt="FAQs"
+              className="rounded-lg shadow-lg object-cover w-full h-auto"
+              priority="true"
+            />
+          </div>
+          <div className="flex-1 w-full max-w-2xl">
+            <h3 className="text-2xl md:text-3xl font-semibold text-sky-600 mb-6">Any questions?</h3>
+            <div className="space-y-4">
+              <details className="border border-sky-300 rounded-lg p-4">
+                <summary className="cursor-pointer text-xl font-semibold text-sky-600">WHAT TYPES OF INSURANCE DOES MORNING PEACE OFFER?</summary>
+                <p className="mt-2 text-base text-gray-800 leading-relaxed">
+                  At Morning Peace Financial Services, we offer a comprehensive range of insurance and financial products, including Living Benefits, tax-free retirement strategies, annuities, and voluntary benefits for businesses. Each solution is carefully designed to provide protection, stability, and long-term peace of mind.
+                </p>
+              </details>
+              <details className="border border-sky-300 rounded-lg p-4">
+                <summary className="cursor-pointer text-xl font-semibold text-sky-600">WHEN SHOULD I START PLANNING FOR RETIREMENT?</summary>
+                <p className="mt-2 text-base text-gray-800 leading-relaxed">
+                  The sooner the better. Whether you're early in your career or nearing retirement, we can help you build or refine a strategy that grows with you.
+                </p>
+              </details>
+              <details className="border border-sky-300 rounded-lg p-4">
+                <summary className="cursor-pointer text-xl font-semibold text-sky-600">HOW DO I GET STARTED WITH MORNING PEACE?</summary>
+                <p className="mt-2 text-base text-gray-800 leading-relaxed">
+                  Simply contact us via phone, email, or our online consultation form. One of our licensed agents will schedule a no-obligation conversation to understand your goals and recommend solutions.
+                </p>
+              </details>
+              <details className="border border-sky-300 rounded-lg p-4">
+                <summary className="cursor-pointer text-xl font-semibold text-sky-600">ARE CONSULTATIONS FREE?</summary>
+                <p className="mt-2 text-base text-gray-800 leading-relaxed">
+                  Yes. We offer complimentary consultations to help you explore your options and make informed decisions — with no pressure and no cost.
+                </p>
+              </details>
+              <details className="border border-sky-300 rounded-lg p-4">
+                <summary className="cursor-pointer text-xl font-semibold text-sky-600">CAN YOU WORK WITH CLIENTS IN MY STATE?</summary>
+                <p className="mt-2 text-base text-gray-800 leading-relaxed">
+                  Absolutely. We’re licensed to serve clients in all 50 states, so no matter where you live, we’re here to help.
+                </p>
+              </details>
+            </div>
           </div>
         </div>
       </div>

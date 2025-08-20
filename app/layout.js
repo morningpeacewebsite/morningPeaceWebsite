@@ -40,6 +40,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Morning Peace</title>
+        <link rel="icon" href="/morning-peace-logo.png" />
       </head>
       <body className="min-h-screen flex flex-col">
         <Navbar />
