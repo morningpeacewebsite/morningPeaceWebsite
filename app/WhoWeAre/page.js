@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,7 +6,18 @@ export default function WhoWeAre() {
     <div className="w-full min-h-screen flex flex-col" style={{background: '#FCF5EF'}}>
       {/* Hero Section */}
       <div className="w-full flex items-center justify-center min-h-[220px] md:min-h-[320px] bg-gradient-to-b from-[#FEA735] to-[#FE7235]">
-        <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg text-center">What is Morning Peace?</h1>
+        <div className="flex items-center space-x-4">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-white drop-shadow-lg">What is Morning Peace?</h1>
+          <div className="bg-white p-2 rounded-lg shadow-md">
+            <Image
+              src="/src/img/morning_peace_no_BG.png"
+              alt="Morning Peace Financial Services Logo"
+              width={160}
+              height={64}
+              priority
+            />
+          </div>
+        </div>
       </div>
       {/* Our Story Section */}
       <div className="w-full py-12 px-4 md:px-8" style={{background: '#FCF5EF'}}>
