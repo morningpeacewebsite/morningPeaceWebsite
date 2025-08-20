@@ -1,4 +1,44 @@
+'use client';
+
+import { useState, useEffect } from "react";
+import { InfiniteSlider } from "components/ui/infinite-slider";
+
 export default function Insurance() {
+  const carrierLogos = [
+    "/5d12641b7a7a1a5ac9f08c8f_logo-american-equity.png",
+    "/American_National.width-167.png",
+    "/athene-logo.png",
+    "/coreBridgeFinancial.png",
+    "/FG_Life_Re_Logo_Full_Color_RGB.png",
+    "/NLG-logo.png",
+  ];
+
+  const [allImagesLoaded, setAllImagesLoaded] = useState(false);
+
+  useEffect(() => {
+    let loadedCount = 0;
+    const imageElements = [];
+
+    carrierLogos.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === carrierLogos.length) {
+          setAllImagesLoaded(true);
+        }
+      };
+      imageElements.push(img);
+    });
+
+    // Cleanup function to nullify onload handlers if component unmounts
+    return () => {
+      imageElements.forEach((img) => {
+        img.onload = null;
+      });
+    };
+  }, [carrierLogos]);
+
   return (
     <div className="w-full min-h-screen flex flex-col" style={{background: '#FCF5EF'}}>
       {/* Hero Section */}
@@ -151,6 +191,43 @@ export default function Insurance() {
             >
               Get Your Free Quote
             </a>
+          </div>
+
+          {/* Top Rated Carriers Section */}
+          <div className="bg-white rounded-xl shadow-lg p-8 mt-16">
+            <h2 className="text-3xl font-bold text-[#FE7235] mb-8 text-center">Top Rated Carriers</h2>
+            {allImagesLoaded ? (
+              <InfiniteSlider durationOnHover={75} gap={24}>
+                {carrierLogos.map((logo, index) => {
+                  let customWidthClass = "";
+                  if (logo.includes("coreBridgeFinancial.png")) {
+                    customWidthClass = "w-[220px]";
+                  } else if (logo.includes("American_National.width-167.png")) {
+                    customWidthClass = "w-[220px]";
+                  } else if (logo.includes("NLG-logo.png")) {
+                    customWidthClass = "w-[260px]";
+                  } else if (logo.includes("/5d12641b7a7a1a5ac9f08c8f_logo-american-equity.png")) {
+                    customWidthClass = "w-[220px]";
+                  }
+                  else if (logo.includes("/athene-logo.png")) {
+                    customWidthClass = "w-[220px]";
+                  }
+                   else {
+                    customWidthClass = "w-[120px]";
+                  }
+                  return (
+                    <img
+                      key={index}
+                      src={logo}
+                      alt={`Carrier logo ${index + 1}`}
+                      className={`rounded-[4px] no-shadow shadow-none ${customWidthClass}`}
+                    />
+                  );
+                })}
+              </InfiniteSlider>
+            ) : (
+              <p className="text-center text-gray-500">Loading carrier logos...</p>
+            )}
           </div>
         </div>
       </div>
