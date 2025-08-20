@@ -57,6 +57,14 @@ export default function Retirement() {
                 <li>• Index Universal Life (IUL) Strategies</li>
                 <li>• Roth IRA Rollovers</li>
               </ul>
+              <div className="mt-6">
+                <a
+                  href="/WhatWeOffer/Insurance"
+                  className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#0077FF] transition shadow-md"
+                >
+                  Explore IUL
+                </a>
+              </div>
             </div>
 
             {/* Annuities */}
@@ -74,6 +82,14 @@ export default function Retirement() {
                 <li>• Deferred Income Planning</li>
                 <li>• Multi Year Guarantee Annuities</li>
               </ul>
+              <div className="mt-6">
+                <a
+                  href="/WhatWeOffer/Annuities"
+                  className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#0077FF] transition shadow-md"
+                >
+                  Explore Annuities
+                </a>
+              </div>
             </div>
           </div>
 

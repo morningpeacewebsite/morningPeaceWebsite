@@ -16,33 +16,29 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Morning Peace",
   description: "Morning Peace Financial Services",
-  metadataBase: new URL('https://www.morningpeace.org/'),
+  metadataBase: new URL("https://www.morningpeace.org/"),
   icons: {
-    icon: "/morning-peace-logo.png",
-    shortcut: "/morning-peace-logo.png",
-    apple: "/morning-peace-logo.png",
+    icon: "/morning_peace_no_BG.png",
+    shortcut: "/morning_peace_no_BG.png",
+    apple: "/morning_peace_no_BG.png",
   },
   openGraph: {
     title: "Morning Peace",
     description: "Morning Peace Financial Services",
-    images: ["/morning-peace-logo.png"],
+    images: ["/morning_peace_no_BG.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Morning Peace",
     description: "Morning Peace Financial Services",
-    images: ["/morning-peace-logo.png"],
+    images: ["/morning_peace_no_BG.png"],
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>Morning Peace</title>
-        <link rel="icon" href="/morning-peace-logo.png" />
-      </head>
-      <body className="min-h-screen flex flex-col">
+      <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col`}>
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
