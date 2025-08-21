@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8">
         {/* left column: main links */}
         <div className="flex-1 mb-6 md:mb-0">
-          <ul className="space-y-4 text-lg font-bold">
+          <ul className="space-y-4 text-2xl font-bold">
             <li>
               <Link href="/WhoWeAre" className="hover:underline cursor-pointer">Who we are</Link>
             </li>

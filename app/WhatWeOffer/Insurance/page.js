@@ -80,7 +80,7 @@ export default function Insurance() {
           </div>
 
           {/* Living Benefits Section */}
-          <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
+          <div id="living-benefits" className="bg-white rounded-xl shadow-lg p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="flex-1 flex justify-center">
                 <img 
