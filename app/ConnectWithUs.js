@@ -27,7 +27,7 @@ export default function ConnectWithUs() {
           </div>
           <div>
             <span className="font-semibold">Email:</span><br/>
-            info@morningpeacefinancial.org
+            info@morningpeace.org
           </div>
           <div>
             <span className="font-semibold">Phone:</span><br/>
