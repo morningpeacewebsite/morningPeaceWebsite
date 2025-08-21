@@ -212,7 +212,10 @@ export default function Insurance() {
                   else if (logo.includes("/athene-logo.png")) {
                     customWidthClass = "w-[220px]";
                   }
-                   else {
+                  else if (logo.includes("/FG_Life_Re_Logo_Full_Color_RGB.png")) {
+                    customWidthClass = "w-[260px]";
+                  }
+                  else {
                     customWidthClass = "w-[120px]";
                   }
                   return (

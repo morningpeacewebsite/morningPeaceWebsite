@@ -86,6 +86,12 @@ export default function Annuities() {
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
               Deferred annuities help you save steadily and provide a reliable income stream later, making them a useful tool for long-term retirement planning.
             </p>
+            <a
+              href="/ConnectWithUs"
+              className="inline-block bg-[#2faeed] text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-[#0077FF] transition shadow-md mb-6"
+            >
+              Contact Us
+            </a>
           </div>
         </div>
       </div>
