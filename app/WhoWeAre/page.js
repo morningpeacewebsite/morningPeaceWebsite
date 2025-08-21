@@ -56,11 +56,11 @@ export default function WhoWeAre() {
           </div>
           <div className="flex-1 flex items-center justify-center mt-10 md:mt-0 md:ml-10">
               <Image
-                src="/mission_n_vision.jpg"
+                src="/missions_and_values.jpg"
                 alt="Young couple with advisor"
-                width={400}
-                height={260}
-                className="rounded-lg shadow-lg object-cover max-h-[260px] w-auto h-auto"
+                width={600}
+                height={390}
+                className="rounded-lg shadow-lg object-cover max-h-[390px] w-auto h-auto"
                 priority
               />
           </div>

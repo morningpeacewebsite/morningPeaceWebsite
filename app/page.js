@@ -91,14 +91,14 @@ export default function Home() {
               </ul>
             </div>
             <div className="flex-1 flex items-center justify-center mt-10 md:mt-0 md:ml-10 max-h-[320px]">
-                <Image
-                  src="/mission_n_vision.jpg"
-                  alt="Young couple with advisor"
-                  width={400}
-                  height={260}
-                  className="rounded-lg shadow-lg object-cover max-h-[320px] w-auto h-auto"
-                  priority
-                />
+            <Image
+              src="/missions_and_values.jpg"
+              alt="Young couple with advisor"
+              width={600}
+              height={390}
+              className="rounded-lg shadow-lg object-cover max-h-[480px] w-auto h-auto"
+              priority
+            />
             </div>
           </div>
         </div>

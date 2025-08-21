@@ -9,6 +9,16 @@ export default function IULAdvantage() {
           </h1>
         </div>
       </div>
+
+      {/* Article Image */}
+      <div className="w-full flex justify-center my-8">
+        <img
+          src="/iul_img.jpeg"
+          alt="IUL Advantage"
+          className="max-w-full h-auto rounded-lg shadow-lg"
+          style={{ maxHeight: '400px' }}
+        />
+      </div>
       
       {/* Main Content Section */}
       <div className="w-full py-12 px-4 md:px-8 flex flex-col items-center flex-1">
@@ -75,4 +85,4 @@ export default function IULAdvantage() {
       </div>
     </div>
   );
-} 
+}
