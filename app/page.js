@@ -83,7 +83,7 @@ export default function Home() {
             </p>
             <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl">
                 <div className="bg-blue-200 rounded-md p-6 flex flex-col items-center text-center text-2xl">
-                  <div className="bg-orange-400 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                <div className="bg-orange-400 rounded-full w-20 h-20 flex items-center justify-center mb-4">
                     {/* Handshake Icon */} 
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M13 5v6h6" />
@@ -94,7 +94,7 @@ export default function Home() {
                   <p className="text-lg text-gray-800">We earn it through transparency and reliability.</p>
                 </div>
                 <div className="bg-blue-200 rounded-md p-6 flex flex-col items-center text-center text-xl">
-                  <div className="bg-orange-500 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                <div className="bg-orange-400 rounded-full w-20 h-20 flex items-center justify-center mb-4">
                     {/* Heart with people Icon */} 
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 21c-4.418 0-8-3.582-8-8 0-1.657.672-3.157 1.757-4.243A5.978 5.978 0 0112 7a5.978 5.978 0 016.243 1.757A5.978 5.978 0 0118 13c0 4.418-3.582 8-8 8z" />
@@ -105,7 +105,7 @@ export default function Home() {
                   <p className="text-lg text-gray-800">We listen first and lead with heart.</p>
                 </div>
                 <div className="bg-blue-200 rounded-md p-6 flex flex-col items-center text-center text-xl">
-                  <div className="bg-orange-500 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                <div className="bg-orange-400 rounded-full w-20 h-20 flex items-center justify-center mb-4">
                     {/* Hands holding heart Icon */} 
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 21c-1.657 0-3-1.343-3-3 0-1.657 1.343-3 3-3s3 1.343 3 3c0 1.657-1.343 3-3 3z" />
@@ -116,7 +116,7 @@ export default function Home() {
                   <p className="text-lg text-gray-800">We make the complex simple and understandable.</p>
                 </div>
                 <div className="bg-blue-200 rounded-md p-6 flex flex-col items-center text-center text-xl">
-                  <div className="bg-orange-500 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                  <div className="bg-orange-400 rounded-full w-20 h-20 flex items-center justify-center mb-4">
                     {/* Group with heart Icon */} 
                     <svg xmlns="http://www.w3.org/2000/svg" className="w-12 h-12 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a4 4 0 00-3-3.87M9 20H4v-2a4 4 0 013-3.87M12 12a4 4 0 100-8 4 4 0 000 8z" />
