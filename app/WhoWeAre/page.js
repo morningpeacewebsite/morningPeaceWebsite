@@ -12,12 +12,15 @@ export default function WhoWeAre() {
       <div className="w-full min-h-screen h-screen" style={{background: '#F3D9B1'}}>
         <div className="w-full h-full">
           <div className="bg-white w-full h-full shadow-lg" style={{background: '#FCF5EF'}}>
-            <div className="flex flex-col md:flex-row items-center gap-8 h-full p-8">
+            <div className="flex flex-col md:flex-row items-center gap-8 h-full p-12">
               <div className="flex-1 flex flex-col justify-center">
-                <h2 className="text-5xl md:text-4xl font-bold text-orange-700 mb-6">OUR STORY</h2>
-                <p className="text-lg md:text-xl text-gray-800 leading-relaxed">
+                <h2 className="text-4xl md:text-6xl font-bold text-orange-700 mb-8">OUR STORY</h2>
+                <p className="text-xl md:text-2xl text-gray-800 leading-relaxed">
                   At Morning Peace Financial Services, LLC, we began with a simple yet powerful belief: everyone deserves to start their day with peace of mind, knowing their financial future is protected. What started as a personal commitment to family and community has grown into a trusted firm helping clients across the region make informed, confident choices about life insurance and retirement planning.
                 </p>
+                <Link href="/ConnectWithUs">
+                  <button className="mt-6 px-10 py-4 bg-sky-400 text-white rounded-lg font-semibold shadow hover:bg-sky-500 transition">Contact Us</button>
+                </Link>
               </div>
               <div className="flex-1 flex justify-center items-center">
                 <div className="w-full max-w-xl h-96 rounded-lg flex items-center justify-center">
@@ -87,55 +90,6 @@ export default function WhoWeAre() {
                 <h3 className="font-bold uppercase mb-2">COMMITMENT</h3>
                 <p className="text-lg text-gray-800">We are dedicated to your peace of mind, now and into the future.</p>
               </div>
-          </div>
-        </div>
-      </div>
-
-      {/* FAQ Section */}
-      <div className="w-full py-12 px-4 md:px-8" style={{background: '#FCF5EF'}}>
-        <div className="max-w-7xl mx-auto bg-white rounded-xl shadow-lg p-8 flex flex-col md:flex-row items-start gap-8">
-          <div className="flex-1 max-w-md relative">
-            <img
-              src="/FAQ_img.jpg"
-              alt="FAQs"
-              className="rounded-lg shadow-lg object-cover w-full h-auto"
-              priority="true"
-            />
-          </div>
-          <div className="flex-1 w-full max-w-2xl">
-            <h3 className="text-2xl md:text-3xl font-semibold text-sky-600 mb-6">Any questions?</h3>
-            <div className="space-y-4">
-              <details className="border border-sky-300 rounded-lg p-4">
-                <summary className="cursor-pointer text-xl font-semibold text-sky-600">WHAT TYPES OF INSURANCE DOES MORNING PEACE OFFER?</summary>
-                <p className="mt-2 text-base text-gray-800 leading-relaxed">
-                  At Morning Peace Financial Services, we offer a comprehensive range of insurance and financial products, including Living Benefits, tax-free retirement strategies, annuities, and voluntary benefits for businesses. Each solution is carefully designed to provide protection, stability, and long-term peace of mind.
-                </p>
-              </details>
-              <details className="border border-sky-300 rounded-lg p-4">
-                <summary className="cursor-pointer text-xl font-semibold text-sky-600">WHEN SHOULD I START PLANNING FOR RETIREMENT?</summary>
-                <p className="mt-2 text-base text-gray-800 leading-relaxed">
-                  The sooner the better. Whether you're early in your career or nearing retirement, we can help you build or refine a strategy that grows with you.
-                </p>
-              </details>
-              <details className="border border-sky-300 rounded-lg p-4">
-                <summary className="cursor-pointer text-xl font-semibold text-sky-600">HOW DO I GET STARTED WITH MORNING PEACE?</summary>
-                <p className="mt-2 text-base text-gray-800 leading-relaxed">
-                  Simply contact us via phone, email, or our online consultation form. One of our licensed agents will schedule a no-obligation conversation to understand your goals and recommend solutions.
-                </p>
-              </details>
-              <details className="border border-sky-300 rounded-lg p-4">
-                <summary className="cursor-pointer text-xl font-semibold text-sky-600">ARE CONSULTATIONS FREE?</summary>
-                <p className="mt-2 text-base text-gray-800 leading-relaxed">
-                  Yes. We offer complimentary consultations to help you explore your options and make informed decisions — with no pressure and no cost.
-                </p>
-              </details>
-              <details className="border border-sky-300 rounded-lg p-4">
-                <summary className="cursor-pointer text-xl font-semibold text-sky-600">CAN YOU WORK WITH CLIENTS IN MY STATE?</summary>
-                <p className="mt-2 text-base text-gray-800 leading-relaxed">
-                  Absolutely. We’re licensed to serve clients in all 50 states, so no matter where you live, we’re here to help.
-                </p>
-              </details>
-            </div>
           </div>
         </div>
       </div>
